@@ -23,7 +23,7 @@ This framework could apply to:
 - [ ] Input sanitization (whitelist vs anomaly detection)
 - [ ] Price prediction (formula-based vs regression model)
 
-##Technologies
+## Technologies
 
 - [ ] Python for both implementations
 - [ ] Scikit-learn or PyTorch for ML baseline
