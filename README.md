@@ -18,17 +18,17 @@ Instead of only measuring accuracy, the goal is to analyze **failure behavior**:
 ## Example Use Cases
 This framework could apply to:
 
-- [ ]Email validation (regex vs learned patterns)
-- [ ]Spam detection (rule-based vs ML classifier)
-- [ ]Input sanitization (whitelist vs anomaly detection)
-- [ ]Price prediction (formula-based vs regression model)
+- [ ] Email validation (regex vs learned patterns)
+- [ ] Spam detection (rule-based vs ML classifier)
+- [ ] Input sanitization (whitelist vs anomaly detection)
+- [ ] Price prediction (formula-based vs regression model)
 
 ##Technologies
 
-- [ ]Python for both implementations
-- [ ]Scikit-learn or PyTorch for ML baseline
-- [ ]Matplotlib/Seaborn for visualization
-- [ ]Pandas for data analysis
+- [ ] Python for both implementations
+- [ ] Scikit-learn or PyTorch for ML baseline
+- [ ] Matplotlib/Seaborn for visualization
+- [ ] Pandas for data analysis
 
  ## Current Status
  In Progress; Setting up project structure and defining the prediction task.
