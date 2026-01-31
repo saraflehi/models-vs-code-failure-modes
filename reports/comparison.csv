@@ -1,0 +1,23 @@
+timestamp,service,level,message,actual_label,heuristic_prediction,heuristic_risk_score,statistical_prediction
+2026-01-01T10:00:01Z,auth,INFO,User login success user_id=104,0,0,0,0
+2026-01-01T10:00:05Z,auth,WARN,Failed login attempt user=admin ip=10.0.0.8,1,1,4,1
+2026-01-01T10:00:07Z,auth,WARN,Failed login attempt user=admin ip=10.0.0.8,1,1,4,1
+2026-01-01T10:00:10Z,api,INFO,GET /health 200 3ms,0,0,0,0
+2026-01-01T10:00:12Z,api,ERROR,GET /checkout 500 NullReferenceException,1,1,4,1
+2026-01-01T10:00:13Z,db,ERROR,Connection timeout after 30000ms host=db01,1,1,4,1
+2026-01-01T10:00:14Z,auth,INFO,Password reset requested user_id=777,1,0,2,1
+2026-01-01T10:00:18Z,api,INFO,GET /products 200 45ms,0,0,0,0
+2026-01-01T10:00:22Z,auth,WARN,User locked out after 5 failed attempts user=admin,1,0,2,1
+2026-01-01T10:00:25Z,api,INFO,POST /login 200 120ms,0,0,0,0
+2026-01-01T10:00:29Z,api,WARN,GET /search 429 rate_limited ip=10.0.0.8,1,0,2,1
+2026-01-01T10:00:33Z,web,INFO,Static asset served /app.js 200 2ms,0,0,0,0
+2026-01-01T10:00:38Z,api,ERROR,GET /profile 403 forbidden user_id=999,1,1,6,1
+2026-01-01T10:00:40Z,auth,INFO,User login success user_id=105,0,0,0,0
+2026-01-01T10:00:44Z,api,INFO,GET /orders 200 58ms,0,0,0,0
+2026-01-01T10:00:47Z,api,ERROR,POST /payment 502 upstream_bad_gateway,1,1,4,1
+2026-01-01T10:00:52Z,db,WARN,Slow query detected duration=912ms query=SELECT...,1,0,2,1
+2026-01-01T10:00:56Z,web,INFO,Page view /home 200 9ms,0,0,0,0
+2026-01-01T10:00:59Z,auth,WARN,Suspicious login location user_id=104 country=RU,1,0,2,0
+2026-01-01T10:01:03Z,api,INFO,GET /home 200 11ms,0,0,0,0
+2026-01-01T10:01:08Z,api,WARN,GET /login 404 NotFound,0,0,0,0
+2026-01-01T10:01:12Z,auth,INFO,User logout user_id=104,0,0,0,0
